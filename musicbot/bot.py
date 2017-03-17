@@ -758,35 +758,35 @@ class MusicBot(discord.Client):
     2. Praise be to iMayHaveBorkedIt ;) \n\
     3. Pm dex if errors. \n\
 #Commands for the bot are:- \n\
-[ ?restart ]( Incase bot misbehaves. :p ) \n\
+[ xrestart ]( Incase bot misbehaves. :p ) \n\
 \n\
-[ ?summon ]( summons the bot into voice chat. Dont use this to move the bot. ) \n\
+[ xsummon ]( summons the bot into voice chat. Dont use this to move the bot. ) \n\
 \n\
-[ ?play song/Link/PlaylistLink ]( takes YT,SoundCloud links and playlists. ) \n\
+[ xplay song/Link/PlaylistLink ]( takes YT,SoundCloud links and playlists. ) \n\
 \n\
-[ ?pause ]( Pauses the bot. ) \n\
+[ xpause ]( Pauses the bot. ) \n\
 \n\
-[ ?resume ]( Resumes the bot duh. ) \n\
+[ xresume ]( Resumes the bot duh. ) \n\
 \n\
-[ ?search songname ]( Use this incase your not sure of the song name. ) \n\
+[ xsearch songname ]( Use this incase your not sure of the song name. ) \n\
 \n\
-[ ?search 1-10 songname ]( Searches for top 1 to 10 YT results. ) \n\
+[ xsearch 1-10 songname ]( Searches for top 1 to 10 YT results. ) \n\
 \n\
-[ ?queue ]( Shows the songs in queue. ) \n\
+[ xqueue ]( Shows the songs in queue. ) \n\
 \n\
-[ ?np ]( Now playing. ) \n\
+[ xnp ]( Now playing. ) \n\
 \n\
-[ ?shuffle ]( To shuffle the songlist. ) \n\
+[ xshuffle ]( To shuffle the songlist. ) \n\
 \n\
-[ ?skip ]( Skips the song. Please let everyone have a chance, dont overskip. ) \n\
+[ xskip ]( Skips the song. Please let everyone have a chance, dont overskip. ) \n\
 \n\
-[ ?volume ]( To check the volume. ) \n\
+[ xvolume ]( To check the volume. ) \n\
 \n\
-[ ?volume 1-100 ]( changes the volume, change your own damn volume. ) \n\
+[ xvolume 1-100 ]( changes the volume, change your own damn volume. ) \n\
 \n\
-[ ?clear ]( Admins only, Clears playlist, only when troll songs requested. ) \n\
+[ xclear ]( Admins only, Clears playlist, only when troll songs requested. ) \n\
 \n\
-[ ?blacklist add @UserName]( If someone is trolling much, only MusicMasters. )\n\
+[ xblacklist add @UserName]( If someone is trolling much, only MusicMasters. )\n\
 ```"
 
             return Response(helpmsg, reply=True)
